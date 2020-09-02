@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class MainpageElementMap {
 	
-	@FindBy (css = ".modal-header:nth-child(2) .sky_icon")
+	@FindBy (css = "button[data-gtm='3']")
 	protected WebElement Fechaentrada;
 	
 	@FindBy (linkText = "Programação")
