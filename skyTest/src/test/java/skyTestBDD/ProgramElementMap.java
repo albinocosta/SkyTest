@@ -14,10 +14,10 @@ public class ProgramElementMap {
 	@FindBy (css = ".schedule-live > .program-schedule-content")
 	protected WebElement Abreprogramatual;
 	
-	@FindBy (css = ".sky-modal-program-title > h2")
+	@FindBy (css = "div.sky-modal-program-title > h2")
 	protected WebElement Titulobanner;
 	
-	@FindBy (css = ".sky-modal-program-date-time > span")
+	@FindBy (css = "div.sky-modal-program-date-time > span")
 	protected WebElement Horabanner;
 
 }
